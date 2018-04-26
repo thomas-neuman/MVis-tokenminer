@@ -24,4 +24,4 @@ RUN apt-get -y install \
         build-essential
 
 RUN mkdir -p /usr/src/MVis-tokenminer
-ADD ./* /usr/src/MVis-tokenminer
+ADD ./* /usr/src/MVis-tokenminer/
